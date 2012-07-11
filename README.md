@@ -3,7 +3,7 @@ Go bindings for libudis86
 
 Installation
 ------------
-go install github.com/jroimartin/udis86
+go get github.com/jroimartin/udis86
 
 Documentation
 -------------
