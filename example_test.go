@@ -1,8 +1,8 @@
 package udis86_test
 
 import (
-	"github.com/jroimartin/udis86"
 	"fmt"
+	"github.com/jroimartin/udis86"
 )
 
 // This example demonstrates disassembling from buffer
