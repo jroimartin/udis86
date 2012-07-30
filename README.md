@@ -15,7 +15,7 @@ libudis86 Installation
 	cd udis86
 	./configure --enable-shared --with-python=/usr/bin/python2 && make && make install
 
-LAST SYNC
+Last sync
 ---------
 Commit de4a93b816b2a98c5942e2d44d30e8228e6ec8e1 ("Add some more SSE4.1 insructions") from the official udis86 git repository at sourceforge
 
