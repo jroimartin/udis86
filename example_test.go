@@ -25,11 +25,13 @@ func ExampleBuffer() {
 	// 0x00400003 55 1 push rbp
 }
 
+// this example demonstrates disassembling from io.Reader
 func ExampleReader() {
 	f, err := os.Open("testdata/x86.bin")
 	if err != nil {
 		fmt.Printf("error: %v\n", err)
 	}
+	defer f.Close()
 	d := udis86.NewUDis86()
 	d.SetInputReader(f)
 	d.SetMode(64)
