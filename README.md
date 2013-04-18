@@ -15,7 +15,6 @@ libudis86 Installation
 	cd udis86/
 	./autogen.sh && ./configure --enable-shared && make && sudo make install
 
-
 TODO
 ----
 * Set custom syntax translators from go
