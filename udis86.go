@@ -96,7 +96,6 @@ type UDis86 struct {
 	PfxRep   uint8
 	PfxRepe  uint8
 	PfxRepne uint8
-	PfxInsn  uint8
 }
 
 // NewUDis86 returns a new UDis86 object.
@@ -139,7 +138,6 @@ func (d *UDis86) fillInsnData() {
 	d.PfxRep = uint8(d.ud.pfx_rep)
 	d.PfxRepe = uint8(d.ud.pfx_repe)
 	d.PfxRepne = uint8(d.ud.pfx_repne)
-	d.PfxInsn = uint8(d.ud.pfx_insn)
 	for i := range d.Operand {
 		d.fillOperandData(i)
 	}
