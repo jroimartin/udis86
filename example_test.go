@@ -43,7 +43,7 @@ func ExampleReader() {
 			d.InsnOff(), d.InsnHex(), d.InsnLen(), d.InsnAsm())
 	}
 	// Output:
-	// 0x00402a6f e84cf7ffff 5 call dword 0x4021c0
+	// 0x00402a6f e84cf7ffff 5 call 0x4021c0
 	// 0x00402a74 4885c0 3 test rax, rax
 	// 0x00402a77 4989c4 3 mov r12, rax
 	// 0x00402a7a 7409 2 jz 0x402a85
