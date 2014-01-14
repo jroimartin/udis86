@@ -3,6 +3,8 @@ package udis86
 
 /*
 #cgo LDFLAGS: -ludis86
+#cgo freebsd CFLAGS: -I/usr/local/include
+#cgo freebsd LDFLAGS: -L/usr/local/lib
 
 #include <udis86.h>
 
